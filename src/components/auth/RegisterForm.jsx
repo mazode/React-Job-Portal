@@ -145,7 +145,8 @@ const RegisterForm = () => {
           Already have an account?{' '}
           <Link
           to="/login"
-          className="font-medium bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent hover:opacity-90">
+          className="font-medium bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent hover:opacity-90"
+          >
             Sign in here
           </Link>
         </p>
