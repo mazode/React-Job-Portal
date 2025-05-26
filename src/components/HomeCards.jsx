@@ -16,7 +16,7 @@ const HomeCards = () => {
                 </p>
                 <Link
                 to="/jobs"
-                className="inline-block bg-gradient-to-r from-purple-400 to-blue-500 text-white rounded-lg px-4 py-2 hover:opacity-90"
+                className="inline-block bg-gradient-to-r from-green-400 to-blue-500 text-white rounded-lg px-4 py-2 hover:opacity-90"
                 >
                 Browse Jobs
                 </Link>
@@ -28,7 +28,7 @@ const HomeCards = () => {
             </p>
             <Link
               to="/add-job"
-              className="inline-block bg-gradient-to-r from-purple-400 to-blue-500 text-white rounded-lg px-4 py-2 hover:opacity-90"
+              className="inline-block bg-gradient-to-r from-green-400 to-blue-500 text-white rounded-lg px-4 py-2 hover:opacity-90"
             >
               Add Job
             </Link>

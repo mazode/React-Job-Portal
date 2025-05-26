@@ -133,7 +133,7 @@ const RegisterForm = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full flex justify-center py-2 px-4 rounded-md shadow-sm text-sm font-medium text-white bg-gradient-to-r from-green-400 to-blue-500 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {loading ? 'Creating account...' : 'Create account'}
           </button>
@@ -144,9 +144,8 @@ const RegisterForm = () => {
         <p className="text-sm text-gray-600">
           Already have an account?{' '}
           <Link
-            to="/login"
-            className="font-medium text-primary-600 hover:text-primary-500"
-          >
+          to="/login"
+          className="font-medium bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent hover:opacity-90">
             Sign in here
           </Link>
         </p>

@@ -21,7 +21,7 @@ const NavBar = () => {
       : 'text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2';
 
   return (
-    <nav className="bg-black border-b border-primary-500">
+    <nav className="bg-gradient-to-r from-green-400 to-blue-400 border-b border-green-200">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
@@ -94,7 +94,7 @@ const NavBar = () => {
                     </NavLink>
                     <NavLink
                       to="/register"
-                      className="bg-gradient-to-r from-primary-500 to-secondary-500 text-white rounded-lg px-4 py-2 hover:opacity-90"
+                      className="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                     >
                       Register
                     </NavLink>
